@@ -152,7 +152,7 @@ impl TransformInput {
         let y = self.abs_y;
         debug!("send ABS_X {}", x);
         debug!("send ABS_Y {}", y);
-        let cmd = format!("x {}\nx {}\n", x, y);
+        let cmd = format!("x {}\ny {}\n", x, y);
         self.write(cmd);
     }
 
