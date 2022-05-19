@@ -1,5 +1,5 @@
 [package]
-name = "mouse-transform"
+name = "touchscreen-transform"
 version = "0.1.0"
 edition = "2021"
 
